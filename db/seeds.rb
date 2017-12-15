@@ -42,7 +42,7 @@ class Seed
       description: "Swing on by, get a squishy, say Hi to Apu"
     )
     Business.all.each do |b|
-      puts "Business #{b.id}: name is '#{b.name}'' and address is '#{b.address}' and description is '#{b.description}'."
+      puts "Business #{b.id}: name is '#{b.name}' and address is '#{b.address}' and description is '#{b.description}'."
     end
   end
 end
