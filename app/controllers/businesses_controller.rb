@@ -11,7 +11,7 @@ class BusinessesController < ApplicationController
   end
 
   def create
-    @business = Business.create(business_params)
+    @business = Business.create!(business_params)
     json_response(@business)
   end
 
