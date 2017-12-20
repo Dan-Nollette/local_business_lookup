@@ -12,5 +12,5 @@
 /tmp/*
 !/log/.keep
 !/tmp/.keep
-Gemfile.lock
+/Gemfile.lock
 .byebug_history
