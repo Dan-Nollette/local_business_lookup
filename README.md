@@ -38,8 +38,6 @@ _A Friday coding project exploring Rails._
   To find a business based on it's name, send a GET request to:
   `http://localhost:3000/business_name_search?name=`name_here
 
-
-
   To find a business based on it's id number, send a GET request to:
   `http://localhost:3000/businesses/`id_number
 
